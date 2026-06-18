@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.container{
+    background-color: rgb(116, 106, 106);
+    height: 100vh;
+    display: flex;
+}
+
+.login-section {
+    height: 100%;
+    width: 40%;
+    background-color:#e7ebf1 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: -12px 0 25px -5px rgba(0, 0, 0, 0.35);
+
+}
+.image-section {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    
+}
+
+form {
+    background-color: white;
+    margin-top: 20px;
+    height: 530px;
+    ​width: 100%;
+max-width: 420px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 7px;    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+form input {
+   width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 1px;
+
+}
+
+form label {
+    margin: 3px 0px;
+    font-weight: 400;
+    font-size: x-small;
+    margin-top: 12px;
+}
+
+form label:first-of-type {
+    margin-top: 28px;
+}
+
+
+
+form p {
+    font-size: small;
+    color: rgb(114, 114, 114);
+    padding: 4px 0px;
+    width: 270px;
+}
+form a {
+    text-decoration: none;
+    color: black;
+    font-size: x-small;
+   text-align: right;
+   width: 100%;
+}
+form button {
+    width: 100%;
+    padding: 9px;
+    background-color: black;
+    color: white;
+    border: black;
+    border-radius: 4px;
+    margin: 14px auto;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: rgb(54, 54, 54);
+}
+.separator {
+    width: 100%;
+    height: 1px;
+    background-color:#c0c2c5;
+    margin: 40px auto;
+
+}
+
+#permission {
+      width: 340px; 
+    text-align: center;
+    margin: 0 auto;
+}
+#permit {
+    background-color: white;
+    color:black;
+    border: 1px solid;
+    width: 100%;
+    border-color: #c0c2c5;
+    margin: 4px auto 0 auto;   
+}   
+#permit:hover{
+    background-color: #e3e5e7;
+}
+.page-title {
+    font-size: 45px;
+    font-weight: 690;
+   margin-bottom: 20px;
+   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+   border-radius: 100px;
+   padding: 0px 12px;
+
+}
+#last-text {
+    font-size:12px;
+    color: #676a70;
+    margin-right:35px;
+    width: 100%;
+max-width: 420px;
+    text-align:start;
+    margin-top: 60px;
+}
+#last-text-protocol {
+    font-size:12px;
+    color: #676a70;
+    margin-right:35px;
+    width: 100%;
+max-width: 420px;
+    text-align:start;
+}
+
+@media(max-width : 768px) {
+    .login-section {
+        width: 100%;
+    }
+
+    .image-section {
+        display: none;
+    }
+.bg-video {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
